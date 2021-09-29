@@ -6,4 +6,6 @@ import com.barrio.merkado.entity.Album;
 
 public interface AlbumService {
 	List<Album> leerTodos();
+	
+	Album guardarAlbum(Album album);
 }
