@@ -27,4 +27,10 @@ public class AlbumServiceImpl implements AlbumService {
 		// TODO Auto-generated method stub	
 	}
 	
+	@Override
+	public Album guardar(Album album) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 }
