@@ -21,5 +21,11 @@ public class AlbumServiceImpl implements AlbumService {
 		List<Album> albumList = albumRepo.findAll();
 		return albumList;
 	}
+
+	@Override
+	public List<Album> buscarPorTitulo(String titulo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
