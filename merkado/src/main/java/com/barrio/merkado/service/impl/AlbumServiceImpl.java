@@ -21,5 +21,12 @@ public class AlbumServiceImpl implements AlbumService {
 		List<Album> albumList = albumRepo.findAll();
 		return albumList;
 	}
+
+
+	@Override
+	public void eliminarAlbum(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

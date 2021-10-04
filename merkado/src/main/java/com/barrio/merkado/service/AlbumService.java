@@ -6,4 +6,5 @@ import com.barrio.merkado.entity.Album;
 
 public interface AlbumService {
 	List<Album> leerTodos();
+	void eliminarAlbum(Integer id);
 }
