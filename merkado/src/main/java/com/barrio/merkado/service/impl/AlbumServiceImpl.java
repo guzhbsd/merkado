@@ -22,4 +22,15 @@ public class AlbumServiceImpl implements AlbumService {
 		return albumList;
 	}
 	
+	@Override
+	public List<Album> buscarPorTitulo(String titulo) {
+		return null;
+	}
+
+	@Override
+	public Album guardarAlbum(Album album) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 }

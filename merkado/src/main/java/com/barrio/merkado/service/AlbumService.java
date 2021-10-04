@@ -6,4 +6,6 @@ import com.barrio.merkado.entity.Album;
 
 public interface AlbumService {
 	List<Album> leerTodos();
+	List<Album> buscarPorTitulo(String titulo);
+	Album guardarAlbum(Album album);
 }
