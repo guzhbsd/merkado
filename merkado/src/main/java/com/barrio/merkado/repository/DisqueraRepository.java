@@ -9,7 +9,7 @@ import com.barrio.merkado.entity.Disquera;
 
 public interface DisqueraRepository extends JpaRepository<Disquera, Integer>{
 
-	public Optional<Disquera> findByNombreEndingWith(String nombre);
+	public Optional<Disquera> findByNombreContaining(String nombre);
 	
 	public List<Disquera> findByPais(String pais);
 	
