@@ -23,7 +23,7 @@ public class DisqueraServiceImpl implements DisqueraService{
 	
 	@Override
 	public Disquera buscarPorNombre(String nombre) {
-		Optional<Disquera> disqueraOt =  disqueraRepository.findByNombreEndingWith(nombre);
+		Optional<Disquera> disqueraOt =  disqueraRepository.findByNombreContaining(nombre);
 		if (disqueraOt.isPresent()) {
 			return disqueraOt.get();
 		}

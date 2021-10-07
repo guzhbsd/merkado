@@ -25,8 +25,8 @@ public class DisqueraRest {
 		return disqueraService.guardar(disquera);
 	}
 	
-	@PostMapping(path = "/modificar")
-	public Disquera editar(@RequestBody Disquera disquera) {
+	@PostMapping(path = "/modificar/{id}")
+	public Disquera editar(@RequestBody Disquera disquera, @PathVariable Integer id) {
 		return disqueraService.guardar(disquera);
 	}	
 	
